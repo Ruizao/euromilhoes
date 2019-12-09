@@ -92,6 +92,10 @@
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.teste = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.teste1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -890,20 +894,54 @@
             // 
             // teste
             // 
-            this.teste.AutoSize = true;
-            this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(394, 59);
+            this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teste.Location = new System.Drawing.Point(112, 575);
             this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(0, 28);
+            this.teste.Size = new System.Drawing.Size(342, 63);
             this.teste.TabIndex = 118;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox1.BackgroundImage = global::euromilh.Properties.Resources.e9247a64cdb169bc61f1046f6e315bce_400x400;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.InitialImage = global::euromilh.Properties.Resources.e9247a64cdb169bc61f1046f6e315bce_400x400__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(132, 136);
+            this.pictureBox1.TabIndex = 119;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label63
+            // 
+            this.label63.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.Navy;
+            this.label63.Location = new System.Drawing.Point(139, 42);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(232, 50);
+            this.label63.TabIndex = 120;
+            this.label63.Text = "Euro Milhões";
+            // 
+            // teste1
+            // 
+            this.teste1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teste1.Location = new System.Drawing.Point(578, 609);
+            this.teste1.Name = "teste1";
+            this.teste1.Size = new System.Drawing.Size(342, 63);
+            this.teste1.TabIndex = 121;
+            this.teste1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Yellow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1026, 707);
+            this.Controls.Add(this.teste1);
+            this.Controls.Add(this.label63);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.teste);
             this.Controls.Add(this.label61);
             this.Controls.Add(this.label62);
@@ -971,8 +1009,8 @@
             this.Name = "Form1";
             this.Text = "Euromilhões";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1040,6 +1078,9 @@
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label teste;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label teste1;
     }
 }
 

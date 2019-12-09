@@ -63,6 +63,46 @@ namespace euromilh.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _20641205_0vtlA {
+            get {
+                object obj = ResourceManager.GetObject("20641205_0vtlA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20641205_0vtlA___Cópia {
+            get {
+                object obj = ResourceManager.GetObject("20641205_0vtlA - Cópia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e9247a64cdb169bc61f1046f6e315bce_400x400 {
+            get {
+                object obj = ResourceManager.GetObject("e9247a64cdb169bc61f1046f6e315bce_400x400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e9247a64cdb169bc61f1046f6e315bce_400x400__1_ {
+            get {
+                object obj = ResourceManager.GetObject("e9247a64cdb169bc61f1046f6e315bce_400x400 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap estrelinha {
             get {
                 object obj = ResourceManager.GetObject("estrelinha", resourceCulture);

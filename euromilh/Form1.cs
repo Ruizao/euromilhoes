@@ -22,28 +22,20 @@ namespace euromilh
         }
 
         private int nestrelas = 0, nnumero = 0;
+        private const string cruz = "X";
+        private euromilhões E = new euromilhões();
         private void estrela(object sender, EventArgs e)
         {
-            Label temp = (Label)sender;
-            if (temp.Text == "X")
-            {
-                temp.Text = "";
-                nestrelas--;
-            }
-            else if (nestrelas < 2)
-            {
-                temp.Text = "X";
-                nestrelas++;
-            }
-            teste.Text = temp.Tag.ToString();
+            Label tmp = (Label)sender;
+            tmp.Text = E.estrela(Convert.ToInt32(tmp.Tag)-1);
+            teste1.Text = E.listao;
         }
 
         private void numero(object sender, EventArgs e)
         {
-            Label temp = (Label)sender;
-            if (temp.Text == "X") temp.Text = "";
-            else temp.Text = "X";
-            teste.Text = temp.Tag.ToString();
+            Label tmp = (Label)sender; 
+            tmp.Text = E.numero(Convert.ToInt32(tmp.Tag)-1);
+            teste.Text = E.listanum;
         }
     }
 }
