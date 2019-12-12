@@ -31,6 +31,12 @@ namespace euromilh
             teste1.Text = E.listao;
         }
 
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            resultado1.Text = E.sorteion;
+            resultado2.Text = E.sorteioe;
+        }
+
         private void numero(object sender, EventArgs e)
         {
             Label tmp = (Label)sender; 

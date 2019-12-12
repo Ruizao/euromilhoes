@@ -95,6 +95,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label63 = new System.Windows.Forms.Label();
             this.teste1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.resultado2 = new System.Windows.Forms.Label();
+            this.resultado1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -925,11 +928,42 @@
             // teste1
             // 
             this.teste1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste1.Location = new System.Drawing.Point(578, 609);
+            this.teste1.Location = new System.Drawing.Point(366, 575);
             this.teste1.Name = "teste1";
             this.teste1.Size = new System.Drawing.Size(342, 63);
             this.teste1.TabIndex = 121;
             this.teste1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(450, 637);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(144, 58);
+            this.button1.TabIndex = 122;
+            this.button1.Text = "Sorteio";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // resultado2
+            // 
+            this.resultado2.AutoSize = true;
+            this.resultado2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.resultado2.Location = new System.Drawing.Point(701, 78);
+            this.resultado2.Name = "resultado2";
+            this.resultado2.Size = new System.Drawing.Size(173, 37);
+            this.resultado2.TabIndex = 123;
+            this.resultado2.Text = "Resultado";
+            // 
+            // resultado1
+            // 
+            this.resultado1.AutoSize = true;
+            this.resultado1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.resultado1.Location = new System.Drawing.Point(406, 78);
+            this.resultado1.Name = "resultado1";
+            this.resultado1.Size = new System.Drawing.Size(173, 37);
+            this.resultado1.TabIndex = 124;
+            this.resultado1.Text = "Resultado";
             // 
             // Form1
             // 
@@ -939,6 +973,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1026, 707);
+            this.Controls.Add(this.resultado1);
+            this.Controls.Add(this.resultado2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.teste1);
             this.Controls.Add(this.label63);
             this.Controls.Add(this.pictureBox1);
@@ -1011,6 +1048,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1081,6 +1119,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Label teste1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label resultado2;
+        private System.Windows.Forms.Label resultado1;
     }
 }
 

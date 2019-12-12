@@ -63,7 +63,7 @@ namespace euromilh
             get
             {
                 string listam = "";
-                for (int i = 0; i <12; i++)
+                for (int i = 0; i < 12; i++)
                     if (estrelas[i])
                     {
                         if (listam != "") listam += "+";
@@ -72,8 +72,27 @@ namespace euromilh
                 return listam;
 
             }
-
         }
-
+        public string sorteion
+        {
+            get
+            {
+                int min = 1;
+                int max = 50;
+                Random random = new Random();
+                return Convert.ToString(random.Next(min, max)) + "+" + Convert.ToString(random.Next(min, max)) + "+" + Convert.ToString(random.Next(min, max) + "+" + Convert.ToString(random.Next(min, max) + "+" + Convert.ToString(random.Next(min, max))));
+            }
+        }
+        public string sorteioe
+        {
+            get
+            {
+                int min = 1;
+                int max = 12;
+                Random random = new Random();
+                return Convert.ToString(random.Next(min, max)) + "+" + Convert.ToString(random.Next(min, max));
+            }
+        }
     }
 }
+ 
