@@ -91,13 +91,20 @@
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
-            this.teste = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label63 = new System.Windows.Forms.Label();
-            this.teste1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.resultado2 = new System.Windows.Forms.Label();
-            this.resultado1 = new System.Windows.Forms.Label();
+            this.n1 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.el1 = new System.Windows.Forms.Label();
+            this.el2 = new System.Windows.Forms.Label();
+            this.numeroo = new System.Windows.Forms.Label();
+            this.estrella = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -895,14 +902,6 @@
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label62.Click += new System.EventHandler(this.numero);
             // 
-            // teste
-            // 
-            this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(112, 575);
-            this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(342, 63);
-            this.teste.TabIndex = 118;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
@@ -925,15 +924,6 @@
             this.label63.TabIndex = 120;
             this.label63.Text = "Euro Milhões";
             // 
-            // teste1
-            // 
-            this.teste1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste1.Location = new System.Drawing.Point(366, 575);
-            this.teste1.Name = "teste1";
-            this.teste1.Size = new System.Drawing.Size(342, 63);
-            this.teste1.TabIndex = 121;
-            this.teste1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -945,25 +935,116 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // resultado2
+            // n1
             // 
-            this.resultado2.AutoSize = true;
-            this.resultado2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
-            this.resultado2.Location = new System.Drawing.Point(701, 78);
-            this.resultado2.Name = "resultado2";
-            this.resultado2.Size = new System.Drawing.Size(173, 37);
-            this.resultado2.TabIndex = 123;
-            this.resultado2.Text = "Resultado";
+            this.n1.BackColor = System.Drawing.Color.White;
+            this.n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.Location = new System.Drawing.Point(125, 576);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(51, 41);
+            this.n1.TabIndex = 123;
+            this.n1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // resultado1
+            // n2
             // 
-            this.resultado1.AutoSize = true;
-            this.resultado1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
-            this.resultado1.Location = new System.Drawing.Point(406, 78);
-            this.resultado1.Name = "resultado1";
-            this.resultado1.Size = new System.Drawing.Size(173, 37);
-            this.resultado1.TabIndex = 124;
-            this.resultado1.Text = "Resultado";
+            this.n2.BackColor = System.Drawing.Color.White;
+            this.n2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n2.Location = new System.Drawing.Point(178, 576);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(51, 41);
+            this.n2.TabIndex = 124;
+            this.n2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n3
+            // 
+            this.n3.BackColor = System.Drawing.Color.White;
+            this.n3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n3.Location = new System.Drawing.Point(231, 576);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(51, 41);
+            this.n3.TabIndex = 125;
+            this.n3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.White;
+            this.n4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n4.Location = new System.Drawing.Point(337, 576);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(51, 41);
+            this.n4.TabIndex = 126;
+            this.n4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n5
+            // 
+            this.n5.BackColor = System.Drawing.Color.White;
+            this.n5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n5.Location = new System.Drawing.Point(284, 576);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(51, 41);
+            this.n5.TabIndex = 127;
+            this.n5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.n5.Click += new System.EventHandler(this.N5_Click);
+            // 
+            // el1
+            // 
+            this.el1.BackColor = System.Drawing.Color.White;
+            this.el1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.el1.Location = new System.Drawing.Point(682, 589);
+            this.el1.Name = "el1";
+            this.el1.Size = new System.Drawing.Size(51, 41);
+            this.el1.TabIndex = 128;
+            this.el1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // el2
+            // 
+            this.el2.BackColor = System.Drawing.Color.White;
+            this.el2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.el2.Location = new System.Drawing.Point(736, 589);
+            this.el2.Name = "el2";
+            this.el2.Size = new System.Drawing.Size(51, 41);
+            this.el2.TabIndex = 129;
+            this.el2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // numeroo
+            // 
+            this.numeroo.BackColor = System.Drawing.Color.Silver;
+            this.numeroo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numeroo.Location = new System.Drawing.Point(173, 85);
+            this.numeroo.Name = "numeroo";
+            this.numeroo.Size = new System.Drawing.Size(224, 46);
+            this.numeroo.TabIndex = 130;
+            this.numeroo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // estrella
+            // 
+            this.estrella.BackColor = System.Drawing.Color.Silver;
+            this.estrella.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estrella.Location = new System.Drawing.Point(679, 85);
+            this.estrella.Name = "estrella";
+            this.estrella.Size = new System.Drawing.Size(146, 46);
+            this.estrella.TabIndex = 131;
+            this.estrella.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(162, 637);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(146, 33);
+            this.label64.TabIndex = 132;
+            this.label64.Text = "Resultado";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.Location = new System.Drawing.Point(680, 647);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(146, 33);
+            this.label65.TabIndex = 133;
+            this.label65.Text = "Resultado";
             // 
             // Form1
             // 
@@ -973,13 +1054,20 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1026, 707);
-            this.Controls.Add(this.resultado1);
-            this.Controls.Add(this.resultado2);
+            this.Controls.Add(this.label65);
+            this.Controls.Add(this.label64);
+            this.Controls.Add(this.estrella);
+            this.Controls.Add(this.numeroo);
+            this.Controls.Add(this.el2);
+            this.Controls.Add(this.el1);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.teste1);
             this.Controls.Add(this.label63);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.teste);
             this.Controls.Add(this.label61);
             this.Controls.Add(this.label62);
             this.Controls.Add(this.label49);
@@ -1115,13 +1203,20 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label teste;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label teste1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label resultado2;
-        private System.Windows.Forms.Label resultado1;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label n5;
+        private System.Windows.Forms.Label el1;
+        private System.Windows.Forms.Label el2;
+        private System.Windows.Forms.Label numeroo;
+        private System.Windows.Forms.Label estrella;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
     }
 }
 

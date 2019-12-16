@@ -91,6 +91,7 @@ namespace euromilh
                 int max = 12;
                 Random random = new Random();
                 return Convert.ToString(random.Next(min, max)) + "+" + Convert.ToString(random.Next(min, max));
+
             }
         }
     }
